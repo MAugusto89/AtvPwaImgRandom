@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 99vw;
+  height: 100vh;
+  flex-direction: column;
+  background-color: #485050;
+  color: #FFFFFF;
+}
+
+.title{
+  width: 100vw;
+  border-radius: 0px 0px 20px 20px;
+  border-bottom: 5px solid white;
+  padding-bottom: 10px;
+}
+.body{
+  width: 99%;
+}
+
+.body img{
+  box-shadow: 5px 5px 10px white, -5px -5px 10px white;
+}
